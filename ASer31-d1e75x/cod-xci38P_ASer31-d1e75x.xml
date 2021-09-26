@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sermo 350</title>
+        <author ref="#Augustine">Augustine</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Sermo 350</title>
+          <date when="2021-09-26">September 26, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci38P">PL 38</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#M" n="7-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ASer31-d1e75x">
+        
+        <!-- sermo 350 -->
+        <p xml:id="ASer31-d1e75x-d1e103" ana="#heading">
+          [Charitatis laus. Per eam divina doctrina sine errore comprehenditur, sine labore custoditur. Mandatum novum faciens hominem novum.] 
+        </p>
+        <p xml:id="ASer31-d1e75x-d1e110">
+          Divinarum scripturarum multiplicem abundantiam latissimamque 
+          doctrinam, fratres mei, sine ullo errore comprehendit, et sine ullo labore custodit, cuius cor plenum est charitate: dicente Apostolo, <quote xml:id="ASer31-d1e75x-Qd1e120">Plenitudo autem legis charitas</quote><!--[Rom. XIII, 10]-->; et alio loco, Finis autem praecepti est charitas de corde puro, et conscientia bona, et fide non ficta <!--[Duo Mss., ideo sine dolo erat; omisso, quia.] [I Tim. I, 5]-->. Quis est autem finis praecepti, nisi praecepti adimpletio? et quid est praecepti adimpletio, nisi legis plenitudo? Quod ergo ibi dixit, Plenitudo legis est charitas; hoc etiam hic dixit, Finis praecepti est charitas. Nec dubitari ullo modo potest, quod templum Dei sit homo, in quo habitat charitas. Dicit enim et Ioannes, <quote xml:id="ASer31-d1e75x-Qd1e139">Deus charitas est</quote><!-- [I Ioan. IV, 8]-->. Haec autem dicentes Apostoli et nobis charitatis excellentiam commendantes, non utique aliud, nisi quod comederant, ructuare potuerunt. Ipse quippe Dominus pascens eos verbo veritatis, verbo charitatis, quod est ipse panis vivus, qui de coelo descendit, Mandatum, inquit, novum do vobis, ut diligatis invicem: Et iterum, In hoc scient omnes quia discipuli mei estis, si vos invicem dilexeritis <!--[Ioan. XIII, 34, 35]-->. Ille enim qui venit per crucis irrisionem carnis perimere corruptionem, et vetustatem vinculi mortis nostrae suae mortis novitate dissolvere, mandato novo fecit hominem novum. Res enim vetus erat, ut homo moreretur. Quod ne semper valeret in homine, res nova facta est, ut Deus moreretur. Sed quia in carne mortuus est, non in divinitate, per sempiternam vitam divinitatis non permisit esse sempiternum interitum carnis. Itaque, sicut dicit Apostolus, Mortuus est propter delicta nostra, et resurrexit propter iustificationem nostram<!--[Rom. IV, 25]-->. Qui ergo contra mortis vetustatem attulit vitae novitatem, ipse contra vetus peccatum opponit novum mandatum. Quapropter quisquis vetus peccatum vis exstinguere, mandato novo exstingue cupiditatem, et amplectere charitatem. Sicut enim radix omnium malorum est cupiditas; ita et radix omnium bonorum est charitas.
+        </p>
+        <p xml:id="ASer31-d1e75x-d1e204">
+          <!--2	[Charitate doctrina Scripturarum tota possidetur.] -->Totam magnitudinem et latitudinem divinorum eloquiorum secura possidet charitas, qua Deum proximumque diligimus. Docet enim nos coelestis unus Magister, et dicit: Diliges Dominum Deum tuum ex toto corde tuo, et ex tota anima tua, et ex tota mente tua: et diliges proximum tuum sicut te ipsum. In his duobus praeceptis universa Lex pendet, et Prophetae <!--[Matth. XXII, 37-40]-->. Si ergo non vacat omnes paginas sanctas perscrutari, omnia involucra sermonum evolvere, omnia Scripturarum secreta penetrare; tene charitatem, ubi pendent omnia: ita tenebis quod ibi didicisti; tenebis etiam quod nondum didicisti. Si enim nosti charitatem, aliquid nosti unde et illud pendet quod forte non nosti: et in eo quod in Scripturis intelligis, charitas patet; in eo quod non intelligis, charitas latet. Ille itaque tenet et quod patet et quod latet in divinis sermonibus, qui charitatem tenet in moribus.
+        </p>
+        <p xml:id="ASer31-d1e75x-d1e240">
+         <!-- 3	[Charitatis praeconium prosequitur.]--> Quapropter, fratres, sectamini charitatem, dulce ac salubre vinculum mentium, sine qua dives pauper est, et cum qua pauper dives est. Haec in adversitatibus tolerat, in prosperitatibus temperat; in duris passionibus fortis, in bonis operibus hilaris; in tentatione tutissima, in hospitalitate latissima; inter veros fratres laetissima, inter falsos patientissima. In Abel per sacrificium grata, in Noe per diluvium secura, in Abrahae peregrinationibus fidelissima, in Moyse inter iniurias lenissima, in David tribulationibus mansuetissima. In tribus pueris blandos ignes innocenter exspectat: in Machabaeis saevos ignes fortiter tolerat. Casta in Susanna erga virum, in Anna post virum, in Maria praeter virum. Libera in Paulo ad arguendum, humilis in Petro ad obediendum: humana in Christianis ad confitendum, divina in Christo ad ignoscendum. Sed quid ego de charitate maius aut uberius possum dicere, quam quas per os Apostoli laudes eius intonat Dominus, supereminentem viam demonstrantis atque dicentis. Si linguis hominum loquar et Angelorum, charitatem autem non habeam, factus sum aeramentum sonans, aut cymbalum tinniens. Et si habuero prophetiam, et sciero omnia sacramenta, et omnem scientiam, et si habuero omnem fidem, ita ut montes transferam, charitatem autem non habeam, nihil sum. Et si donavero omnes facultates meas, et si distribuero omnia mea pauperibus, et si tradidero corpus meum ut ardeam, charitatem non habeam, nihil mihi prodest. Charitas magnanima est, charitas benigna est. Charitas non aemulatur, non agit perperam, non inflatur, non dehonestatur, non quaerit quae sua sunt, non irritatur, non cogitat malum, non gaudet super iniquitate, congaudet autem veritati. Omnia tolerat, omnia credit, omnia sperat, omnia suffert, Charitas nunquam cadit <!--[I Cor. XIII, 1-8]-->? Quanta est ista? Anima litterarum, prophetiae virtus, sacramentorum salus, scientiae solidamentum <!--[Quaestionem hanc Augustinus in quaest. 72 super Gen. indicat iam a se in hoc ipso sermone tractatam.]-->, fidei fructus, divitiae pauperum, vita morientium Quid tam magnanimum, quam pro impiis mori? quid tam benignum, quam inimicos diligere? Sola est quam felicitas aliena non premit, quia non aemulatur. Sola est quam felicitas sua non extollit, quia non inflatur. Sola est quam conscientia mala non pungit, quia non agit perperam. Inter opprobria secura est, inter odia benefica est: inter iras placida est, inter insidias innocens: inter iniquitates gemens, in veritate respirans. Quid illa fortius, non ad retribuendas, sed ad non curandas iniurias? Quid illa fidelius, non vanitati, sed aeternitati <!--[Mss.: Si ergo. Pauloque post duo Mss., id est, haedinas pelles, quod est dolus.]--> Iacob transit ad Christum post <!--[Note: Forte, portat.]-->? Nam ideo tolerat omnia in praesenti vita, quia credit omnia de futura vita; et suffert omnia quae hic immittuntur, quia sperat omnia quae ibi promittuntur: merito nunquam cadit. Ergo sectamini charitatem, et eam sancte cogitantes afferte fructus iustitiae. Et quidquid uberius, quam ego dicere potui, vos inveneritis in eius laudibus, appareat in vestris moribus. Oportet enim ut senilis sermo non solum sit gravis, sed etiam brevis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
